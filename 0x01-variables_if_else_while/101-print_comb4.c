@@ -14,8 +14,7 @@ for (alpha = 48; alpha <= 57; alpha++)
 	for (n = 49; n <= 57; n++)
 	{
 		for (m = 50; m <= 57; m++)
-		{
-			
+		{	
 			if (n > alpha && m > n)
 			{
 				putchar(alpha);

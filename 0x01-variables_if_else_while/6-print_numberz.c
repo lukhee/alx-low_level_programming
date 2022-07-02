@@ -9,7 +9,7 @@
 int main(void)
 {
 int alpha;
-for (alpha = 0; alpha <= 9; alpha++)
+for (alpha = 48; alpha <= 57; alpha++)
 {
 	putchar(alpha);
 }

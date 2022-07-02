@@ -13,7 +13,7 @@ for (alpha = 97; alpha <= 122; alpha++)
 {
 	if(alpha != 113 || alpha != 101 )
 	{
-		puitchar(alpha);
+		putchar(alpha);
 	}
 }
 putchar(10);

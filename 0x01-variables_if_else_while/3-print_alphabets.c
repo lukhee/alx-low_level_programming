@@ -15,7 +15,7 @@ for (alpha = 97; alpha <= 122; alpha++)
 }
 for (alpha = 65; alpha <= 90; alpha++)
 {
-	putchar(alpha);                                            
+	putchar(alpha);
 }
 putchar(10);
 return (0);

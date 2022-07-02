@@ -9,12 +9,9 @@
 int main(void)
 {
 int alpha;
-for (alpha = 97; alpha <= 122; alpha++)
+for (alpha = 0; alpha <= 9; alpha++)
 {
-	if (alpha != 113 && alpha != 101)
-	{
-		putchar(alpha);
-	}
+	printf("%d", alpha);
 }
 putchar(10);
 return (0);

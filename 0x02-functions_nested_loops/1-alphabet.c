@@ -1,11 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Description: 'the program's description'
- *
- * Return: Alwaays 0
+ * print_alphabet -> print the lowercase alphabets
  */
 
 void print_alphabet(void)

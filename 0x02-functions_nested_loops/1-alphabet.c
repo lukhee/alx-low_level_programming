@@ -1,9 +1,11 @@
 #include "main.h"
+
 /**
  * Main Page
  *
  * print alphabet in lower case
  */
+
 void print_alphabet(void)
 {
 	char j;

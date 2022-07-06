@@ -4,7 +4,7 @@
  *
  * print alphabet in lower case
  */
-void print_alphabet_x10(void)
+void print_alphabet(void)
 {
 	int j;
 	for(j = "a"; j <= "z"; j++)
@@ -16,7 +16,7 @@ void print_alphabet_x10(void)
 
 int main(void)
 {
-	print_alphabet_x10
+	print_alphabet(void)
 
 	return(0)
 }

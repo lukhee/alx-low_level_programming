@@ -3,6 +3,8 @@
 /**
  * main - check the code
  *
+ * Description: 'the program's description'
+ *
  * Return: Alwaays 0
  */
 

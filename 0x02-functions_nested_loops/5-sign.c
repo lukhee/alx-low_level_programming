@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _isalpha -> check if the character is alphabet
+ * print_sign -> check if the character is alphabet
  * @c: a charaacter argument
  * Return: return  if  lower and 0 is nnot
  */

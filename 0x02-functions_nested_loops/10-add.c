@@ -1,12 +1,9 @@
 #include "main.h"
 
 /**
- * add -> add 2 input  together
- * 
- * @m -> first input
- *
- * @nn -> second input
- *
+ * add -> add 2 input together
+ * @m: first input
+ * @n: second input
  * Return: return  if  lower and 0 is nnot
  */
 
@@ -16,6 +13,5 @@ int add(int m, int n)
 
 	result = m + n;
 
-	return (result + 48);
-	
+	return (result);
 }

@@ -14,10 +14,17 @@ int main(void)
 
 	printf("%ld, ", n1);
 	printf("%ld, ", n2);
-	for (j = 0; j < 50; j++)
+	for (j = 0; j < 48; j++)
 	{
 		sum = n1 + n2;
-		printf("%ld, ", sum);
+		if (j == 47)
+		{
+			printf("%d", sum)
+		}
+		else
+		{
+			printf("%ld, ", sum);
+		}
 		n1 = n2;
 		n2 = sum;
 	}

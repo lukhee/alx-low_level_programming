@@ -18,12 +18,8 @@ void jack_bauer(void)
 				_putchar(x + '0');
 				_putchar(i + '0');
 				_putchar(':');
-				if (j < 10)
-				{
-					_putchar('0');
-				}
-				_putchar((j/10) + '0');
-				_putchar((j%10) + '0');
+				_putchar((j / 10) + '0');
+				_putchar((j % 10) + '0');
 				_putchar('\n');
 			}
 		}

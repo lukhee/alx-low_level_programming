@@ -7,17 +7,17 @@
 
 int main(void)
 {
-	int n1 = 1;
-	int n2 = 2;
-	int j;
-	int sum;
+	long int n1 = 1;
+	long int n2 = 2;
+	long int j;
+	long int sum;
 
 	printf("%d, ", n1);
 	printf("%d, ", n2);
 	for (j = 0; j < 50; j++)
 	{
 		sum = n1 + n2;
-		printf("%d, ", sum);
+		printf("%ld, ", sum);
 		n1 = n2;
 		n2 = sum;
 	}
